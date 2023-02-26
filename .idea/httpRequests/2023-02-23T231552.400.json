@@ -1,0 +1,7 @@
+{
+  "timestamp": 1677165352361,
+  "status": 400,
+  "error": "Bad Request",
+  "message": "",
+  "path": "/employee/login"
+}
