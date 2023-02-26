@@ -1,0 +1,7 @@
+package com.xm.reggie.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.xm.reggie.entity.User;
+
+public interface UserService extends IService<User> {
+}
