@@ -7,11 +7,12 @@
     <option name="showLibraryBeans" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a4c5ee1-c28e-4eb2-ba50-ca890da95444" name="变更" comment="功能完成">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/reggie/config/RedisConfig.java" afterDir="false" />
+    <list default="true" id="7a4c5ee1-c28e-4eb2-ba50-ca890da95444" name="变更" comment="Redis环境配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xm/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xm/reggie/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xm/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xm/reggie/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xm/reggie/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xm/reggie/controller/DishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xm/reggie/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xm/reggie/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,7 @@
       <workItem from="1677375954684" duration="2686000" />
       <workItem from="1677378680776" duration="1558000" />
       <workItem from="1677393121145" duration="3254000" />
-      <workItem from="1677595191561" duration="626000" />
+      <workItem from="1677595191561" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="功能完成">
       <created>1677582500734</created>
@@ -150,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677582796202</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Redis环境配置">
+      <created>1677595849614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677595849614</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +192,8 @@
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
     <MESSAGE value="功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能完成" />
+    <MESSAGE value="Redis环境配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis环境配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
