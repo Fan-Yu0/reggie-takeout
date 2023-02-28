@@ -7,7 +7,10 @@
     <option name="showLibraryBeans" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a4c5ee1-c28e-4eb2-ba50-ca890da95444" name="变更" comment="测试" />
+    <list default="true" id="7a4c5ee1-c28e-4eb2-ba50-ca890da95444" name="变更" comment="功能完成">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xm/reggie/controller/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xm/reggie/controller/AddressBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xm/reggie/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xm/reggie/controller/OrderController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\作业\Java\黑马\reggie" />
       <recent name="D:\作业\Java\黑马\reggie\src\main\java\com\xm\reggie\entity" />
       <recent name="D:\作业\Java\黑马\reggie\src\main\resources" />
       <recent name="D:\作业\Java\黑马\reggie\src\main\java\com\xm\reggie\utils" />
       <recent name="D:\作业\Java\黑马\reggie\src\main\java\com\xm\reggie\dto" />
-      <recent name="D:\作业\Java\黑马\reggie\src\main\resources\backend\page\demo" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Reggie">
@@ -121,6 +124,14 @@
       <workItem from="1677378680776" duration="1558000" />
       <workItem from="1677393121145" duration="3254000" />
     </task>
+    <task id="LOCAL-00001" summary="功能完成">
+      <created>1677582500734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677582500734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +164,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
+    <MESSAGE value="功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

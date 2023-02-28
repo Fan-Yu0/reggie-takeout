@@ -7,7 +7,6 @@ import com.xm.reggie.common.R;
 import com.xm.reggie.entity.AddressBook;
 import com.xm.reggie.service.AddressBookService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
