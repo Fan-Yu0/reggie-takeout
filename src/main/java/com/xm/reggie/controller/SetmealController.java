@@ -14,6 +14,8 @@ import com.xm.reggie.service.SetmealDishesService;
 import com.xm.reggie.service.SetmealService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -95,6 +97,7 @@ public class SetmealController {
      * @param ids
      * @return
      */
+    @CacheEvict(value = "setmealCache",allEntries = true)
     @DeleteMapping
     public R<String> remove(Long[] ids){
         for(Long id : ids){
@@ -111,6 +114,7 @@ public class SetmealController {
      * @param setmealDto
      * @return
      */
+    @CacheEvict(value = "setmeal",allEntries = true)
     @PutMapping
     public R<String> update(@RequestBody SetmealDto setmealDto){
         setmealService.updates(setmealDto);
@@ -159,6 +163,8 @@ public class SetmealController {
      * @param setmeal
      * @return
      */
+
+    @Cacheable(value = "setmealCache",key = "#setmeal.categoryId +'_'+ #setmeal.status")
     @GetMapping("/list")
     public R<List<Setmeal>> list(Setmeal setmeal){
         LambdaUpdateWrapper<Setmeal> wrapper = new LambdaUpdateWrapper<>();
